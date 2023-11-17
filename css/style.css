@@ -92,3 +92,33 @@
     margin: auto;
     border: 1px dashed black;
 }
+
+/* Footer */
+footer {
+    background-color: #23272a;
+    min-height: 700px;
+    margin: 0 auto;
+}
+
+.main-footer {
+    max-width: 1200px;
+    margin: auto;
+    border: 1px dashed white;
+    display: flex;
+}
+
+.footer-column-small {
+    flex-basis: 25%;
+    height: 600px;
+    margin: 50px auto;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.footer-column-large {
+    flex-basis: 75%;
+    height: 600px;
+    margin: 50px auto;
+    background-color: skyblue;
+    border: 1px dashed black;
+}
