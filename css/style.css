@@ -42,7 +42,7 @@
 .header-btm-container {
     flex-basis: 800px;
     min-height: 400px;
-    margin: 50 auto;
+    margin: 50px auto;
     background-color: pink;
     border: 1px dashed black;
 }
