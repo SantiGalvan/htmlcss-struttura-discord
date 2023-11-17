@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* Utilitis */
+.pd50 {
+    padding: 50px;
+}
+
 /* Generals */
 .container {
     max-width: 1200px;
@@ -77,5 +82,13 @@
     height: 600px;
     margin: 50px auto;
     background-color: pink;
+    border: 1px dashed black;
+}
+
+.container-xl {
+    background-color: green;
+    min-height: 800px;
+    max-width: 1200px;
+    margin: auto;
     border: 1px dashed black;
 }
