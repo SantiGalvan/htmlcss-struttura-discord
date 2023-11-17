@@ -109,7 +109,7 @@ footer {
 .footer-box-small {
     flex-basis: 25%;
     height: 600px;
-    margin: 50px auto;
+    margin: 20px auto 50px;
     background-color: pink;
     border: 1px dashed black;
 }
@@ -117,7 +117,7 @@ footer {
 .footer-box-large {
     flex-basis: 75%;
     height: 600px;
-    margin: 50px auto;
+    margin: 20px auto 50px;
     background-color: skyblue;
     border: 1px dashed black;
     display: flex;
@@ -128,6 +128,7 @@ footer {
     border: 1px dashed white;
 }
 
+/* Last footer */
 .last-footer {
     border-top: 2px solid white;
 }
