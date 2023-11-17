@@ -1,0 +1,52 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header-tp {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.header-tp-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 50px;
+    background-color: goldenrod;
+    display: flex;
+}
+
+.logo {
+    flex-basis: 20%;
+    border: 1px dashed black;
+}
+
+.link {
+    flex-basis: 60%;
+    border: 1px dashed black;
+}
+
+.log {
+    flex-basis: 20%;
+    border: 1px dashed black;
+}
+
+.header-btm {
+    background-color: blue;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-btm-container {
+    flex-basis: 800px;
+    min-height: 400px;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+/* Main */
