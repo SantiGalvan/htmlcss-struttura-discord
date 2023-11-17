@@ -36,17 +36,24 @@
 
 .header-btm {
     background-color: blue;
-    min-height: 500px;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .header-btm-container {
     flex-basis: 800px;
     min-height: 400px;
+    margin: 50 auto;
     background-color: pink;
     border: 1px dashed black;
 }
 
 /* Main */
+.white-section {
+    background-color: #fff;
+    min-height: 800px;
+}
+
+.gray-section {
+    background-color: gray;
+    min-height: 800px;
+}
