@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+/* Generals */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
 /* Header */
 .header-tp {
     background-color: skyblue;
@@ -50,10 +58,24 @@
 /* Main */
 .white-section {
     background-color: #fff;
-    min-height: 800px;
 }
 
 .gray-section {
     background-color: gray;
-    min-height: 800px;
+}
+
+.large-column {
+    flex-basis: 65%;
+    height: 600px;
+    margin: 50px auto;
+    background-color: skyblue;
+    border: 1px dashed black;
+}
+
+.small-column {
+    flex-basis: 35%;
+    height: 600px;
+    margin: 50px auto;
+    background-color: pink;
+    border: 1px dashed black;
 }
