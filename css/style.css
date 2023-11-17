@@ -104,11 +104,11 @@ footer {
     max-width: 1200px;
     margin: auto;
     display: flex;
+    height: 600px;
 }
 
 .footer-box-small {
     flex-basis: 25%;
-    height: 600px;
     margin: 20px auto 50px;
     background-color: pink;
     border: 1px dashed black;
@@ -116,7 +116,6 @@ footer {
 
 .footer-box-large {
     flex-basis: 75%;
-    height: 600px;
     margin: 20px auto 50px;
     background-color: skyblue;
     border: 1px dashed black;
